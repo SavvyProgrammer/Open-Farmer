@@ -1,4 +1,4 @@
-# NaijaHacks 2019
+# NaijaHacks Hackathon 2019
 
 ## Team Piedpiper
 
@@ -33,6 +33,11 @@ Java, FireBase, Adobe-XD, APIs
 - Joining local group forum in your location to learn about new ideas, improvement of any crop practices which distance is not a barrier.
 
 # Top-level directory layout
+
+    ├── data                    
+    ├── public                  
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    └── README.md               # Introduction of the Problem
 
 # How to setup project and run locally
 
