@@ -33,3 +33,20 @@ Java, FireBase, Adobe-XD, APIs
 - Joining local group forum in your location to learn about new ideas, improvement of any crop practices which distance is not a barrier.
 
 # Top-level directory layout
+
+# How to setup project and run locally
+
+### Clone the repository 
+
+```
+git clone https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019
+```
+### import project using Android Studio/IntelliJ 
+
+```
+insert the name of the repository to import your project => https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019
+wait for graddle to sync with project
+Connect a device in debugging more or use a suitable android emulator
+then Click run to view the project on your device
+```
+
