@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "873732718545",
+    "firebase_url": "https://openfarmer.firebaseio.com",
+    "project_id": "openfarmer",
+    "storage_bucket": "openfarmer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873732718545:android:10fa8e106f6c9979246af0",
+        "android_client_info": {
+          "package_name": "dev.savvyprogrammer.openfarmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873732718545-c57mjlegl56t91ffuorq84sbli49hotm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.savvyprogrammer.openfarmer",
+            "certificate_hash": "d1528df6df29f2e9ec9d78a5657fa477ba7a6270"
+          }
+        },
+        {
+          "client_id": "873732718545-g6l0asvisb7bb16r66tvi80tcohtfu5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCAYDfuowbiY7nnvQgQ-3LghIeEYz8GV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873732718545-g6l0asvisb7bb16r66tvi80tcohtfu5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

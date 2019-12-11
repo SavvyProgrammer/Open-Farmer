@@ -1,0 +1,614 @@
+<resources>
+    <string name="app_name">OpenFarmer</string>
+    <string name="openfarmer_sms_verify_header">Verify your phone number</string>
+    <string name="openfarmer_sms_verify_sub_header">OpenFarmer will send an SMS message to verify your phone number (carrier charges may apply)</string>
+    <string name="country_code">+234</string>
+    <string name="phone_number_hint">phone number</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="code">code</string>
+    <string name="country">country</string>
+    <string name="verify_your_phone_number">Verify your phone number</string>
+    <string name="wrong_number">wrong number?</string>
+    <string name="sms_verify_sub_header">waiting to automatically detect SMS code sent to</string>
+    <string name="resend_sms">Resend SMS</string>
+    <string name="count_down_time">3:00</string>
+    <string name="what_is_your_profession">What is your profession?</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="no_internet_connection">You are offline. \nPlease check your Internet connection.</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="image_des">image</string>
+    <string name="no_news">No News</string>
+    <string name="search_hint">Search Crop</string>
+    <string name="app_label">OpenFarmer</string>
+    <string name="title_avocado">Avocado</string>
+    <string name="advise">Advise</string>
+    <string name="attacks">Attacks</string>
+    <string name="about">About</string>
+    <string name="title_activity_crop_story">CropStory</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="avocado_introduction_body">
+        <b>Avocado</b>, Persea americana, is an evergreen tree in the family Lauraceae which is grown for its nutritious fruit, the avocado.\n\n
+        The avocado tree is large and dome shaped with oval or elliptical leaves arranged in a spiral on the tips of branches. \n\n
+        The leaves have a red pigmentation when they first emerge and turn green as they mature. Avocado trees produce clusters of small, green-yellow flowers at the end of
+        twigs and a large, fleshly, pear-shaped fruit with a single large seed. \n\n
+        The fruits can be purple to green in color with smooth or warty skin depending on variety. The flesh of the fruit is yellow-green in color and has the consistency of butter.
+        Each fruit contains one large seed. \n\n
+        Avocado trees grown from seed can take 4-6 years to produce fruit whereas grafted plants may produce fruit within 1-2 years. The tree can reach a height of 20m (65.6ft) and originated in the rainforests
+        of central America.
+    </string>
+
+
+    <string name="avocado_cultivation_body">
+        <b>Propagation:</b>\n\n
+        Avocados are commonly propagated from seeds but the seeds will not breed true to type and this should be taken into consideration before planting.\n\n
+        Clonal plants are obtained from budding and grafting from a parent tree to ensure the offspring are of the sam high quality of the parent. In plantations, seeds can be sown directly
+        in the soil. 2 to 3 seeds are usually sown and thinned later to leave the strongest seedling for grafting.\n\n
+        Seeds may also be sown in containers and grown for 2 to 3 months before planting at the final site.\n\n
+
+        <b>Planting:</b>\n\n
+        Avocado seedling should ideally be planted in the Spring when the soil has warmed through. Choose a location that receives full sun and has protection from the wind.\n\n
+        The trees should be planted by digging a hole a little wider than the root ball and gently easing the tree into the hole. Slow release fertilizer can be added to the hole at planting but
+        is not necessary.\n\n
+        Care should be taken not to disturb the roots as much as possible and the hole should be carefully backfilled and the soil and tamped to prevent dislodging. Trees should be planted 4.5 to 6m
+        (15-20 ft) apart in rows spaced 6m (20 ft) apart.\n\n
+    </string>
+
+    <string name="avocado_requirements_body">
+        Avocados thrive in subtropical or tropical climates but can also be grown successfully in cooler areas of the world.\n\n
+
+The optimum temperature for growing avocado is between 25 and 33°C (77–91.4°F) with moderate humidity levels.\n\n
+
+Once established, trees can tolerate temperatures down to around -2°C (28°F) with minimal damage but young trees will not tolerate freezing temperatures.\n\n
+
+Avocado requires a well-draining, aerated soil and they produce a shallow root system which require a warm soil for efficient water and nutrient uptake.\n\n
+
+Although trees will tolerate low rainfall, irrigation, particularly during flowering and fruit set, will ensure high fruit yields.\n\n
+
+    </string>
+
+    <string name="avocado_harvesting_body">
+    Avocado trees take seven to 15 years to grow from seed to fruit-bearing maturity, but make up for the wait with an annual yield of 60 to 200 avocados per tree.\n\n
+
+    Mature trees grown outdoors can reach heights of 15 to 45 feet tall depending on the variety, making it difficult to reach the upper fruits even with a ladder.\n\n
+
+    The fruits don\'t ripen on the tree and letting them fall can bruise the fruit, so you must use a pole pruner with a basket or bag attachment.\n\n
+
+    Inspect the fruit on the tree regularly for maturity at the beginning of the harvest season, which varies with different varieties.\n\n
+
+    Grip the avocado in your hand and cut the stem just above the fruit, using a pair of bypass pruners. If you need to harvest a large volume of avocados, use a harvest knife or hook, which you simply hook behind the stem and pull to pick the fruit. This works best if the avocados are low to the ground or accessible by ladder.\n\n
+
+    </string>
+
+    <string name="beans_introduction_body">
+    The common <b>bean, Phaseolus vulgaris</b>, is an herbaceous annual plant in the family Fabaceae which is grown as a pulse and green vegetable.\n\n
+
+The common bean can be bushy, vine–like or climbing depending on the variety being grown. The leaves grow alternately on the stems, are green or purple in color and are divided into 3 oval leaflets with smooth edges.\n\n
+
+The leaves can grow 6–15 cm (2.4–5.9 in) long and 3–11 cm (1.2–4.3 in) wide. The common bean produces white, pink, lilac or purple flowers which are approximately 1 cm (0.4 in) in diameter, and bean pods 8–20 cm (3.1–7.9 in) long and 1–1.5 cm (0.4–0.6 in) wide which can range in color from green to yellow or black to purple.\n\n
+
+Each pod contains 4–6 smooth, kidney-shaped beans. Common bean plants are annual plants and last only one growing season and range greatly in size from the bushy varieties 20–60 cm (7.9–24 in) in height; to vines or runner beans which can reach 2–3 m (6 ft 7 in–9 ft 10 in) in length.\n\n
+
+The common bean includes many varieties and may be referred to as bush bean, dry bean, dwarf bean, field bean, French bean, snap bean, garden bean, haricot bean, kidney bean, pole bean or string bean.\n\n
+
+The plant originates from the Americas.
+    </string>
+
+    <string name="beans_cultivation_body">
+Beans should be direct seeded in the garden in when the soil has reached a temperature of at least 15.5°C (60°F), with the optimum temperature for germination being between 15.5 and 29°C (60–85°F).\n\n
+
+Planting at cooler temperatures leads to slow germination and promotes seed rotting.\n\n
+
+Seeds should be planted 2.5–3.5 cm (1–1.5 in) deep. Bush beans should be planted 5–10 cm (2–4 in) apart allowing 0.6–0.9 m (2–3 ft) between rows.\n\n
+
+Pole beans can be planted in both row and hills. In rows, seeds should be spaced 15–25 cm (6–10 in) apart allowing 0.9–1.2 m (3–4 ft) between rows.\n\n
+
+For a continuous harvest of beans over the summer months, make new plantings every 2–3 weeks.\n\n
+    </string>
+
+    <string name="beans_requirements_body">
+Common beans are warm-season crops and should be planted after all danger of frost has passed and the soil has warmed.\n\n
+
+Beans will grow best at soil temperatures between 15.5 and 29°C (60–85°F) and are sensitive to cold temperatures and frosts.\n\n
+
+Beans will grow best in a fertile, well-draining soil with a pH between 6.0 and 6.75 Beans will perform best in full sunlight.\n\n
+    </string>
+
+    <string name="beans_harvesting_body">
+Beans are generally ready for harvest approximately two weeks after bloom.\n\n
+
+The beans should be harvested just before the seeds are mature and before they form bumps on the pod.\n\n
+
+The pods should be firm and snap when they are bent.\n\n
+
+Pick beans every 2–3 days to ensure the plants remain productive.\n\n
+
+Pinch beans rather than pulling to avoid damaging the plant. Cut pole beans from the plant using scissors.\n\n
+    </string>
+
+
+    <string name="carrot_introduction_body">
+Carrot, Daucus carota, is an edible, biennial herb in the family Apiaceae grown for its edible root. The carrot plant produces a rosette of 8–12 leaves above ground and a fleshy conical taproot below ground. \n\n
+
+The plant produces small (2 mm) flowers which are white, red or purple in color. The root can grow to between 5 and 50 cm (2.0–20 in) long and reach 5 cm (2.0 in) in diameter. The foliage of the plant can reach a height of 150 cm (59.1 in) when in flower. \n\n
+
+The carrot plant can be annual or biennial and may also be referred to as wild carrot. The plant is believed to have originated in Europe or the Western Mediterranean.\n\n
+    </string>
+
+    <string name="carrot_cultivation_body">
+        Carrot is usually direct seeded and should be planted 3–5 weeks before the least frost date in your area.\n\n
+
+Soil should be prepared prior to planting by removing rocks and breaking up any hard lumps of soil down to a depth of at least 30 cm (12 in).\n\n
+
+It is also beneficial to work some compost into the soil prior to planting.
+
+Avoid using fresh manure as it can cause forking of the roots. Sow seeds 6 mm (0.25 in) deep, leaving 5 cm (2 in) between seeds and approximately 30 cm (1 ft) apart.\n\n
+
+When seedlings reach 2.5 cm (1 in) in height, thin them to a final spacing of 7.5 cm (3 in) between plants by snipping with scissors - this avoids damaging plant roots.\n\n
+    </string>
+
+    <string name="carrot_requirements_body">
+Carrots are cool-season crops which can be planted in early Spring and left in the ground all summer for harvest in the fall. Carrots grow best in a well-draining, loose, sandy soil which is free of large rocks and has a pH between 5.5 and 7.0.\n\n
+
+They require full sun for optimum development but will tolerate some very light shade.\n\n
+
+The optimum temperature for their growth is between 16 and 24°C (61–74°F). Carrot seedlings are very sensitive to extremes of temperature, very hot weather may kill the plant whereas temperatures below 10°C (50°F) tend to cause the development of longer, paler roots.\n\n
+
+The plants also require plenty moisture and organic matter. Carrots do very well in raised beds and can also be grown in containers.\n\n
+    </string>
+
+    <string name="carrot_harvesting_body">Carrots are generally ready to harvest after around 2–3 months when the roots have reached 1.3 cm (0.5 in) in diameter.\n\nAllowing the carrots to stay in the ground for at least one frost makes them sweeter but care should be taken to harvest before the ground freezes or to cover the plants to prevent freezing.\n\nCarrots are harvested by gently digging around the plant to expose the top of the root and gently, but firmly pulling the root from the soil by grasping the top of the carrot just above the root.\n\nCarrot tops should be twisted off and the roots washed prior to refrigeration in airtight bags. Carrots may also be stored in moist sand to keep them fresh prior to use.\n\n
+    </string>
+
+    <string name="cassava_introduction_body"><b>Cassava, Manihot esculenta,</b> is a perennial shrub in the family Euphorbiaceae grown primarily for its storage roots which are eaten as a vegetable.\n\nThe cassava plant is a woody plant with erect stems and spirally arranged simple lobed leaves with petioles (leaf stems) up to 30 cm in length. The plant produces petal–less flowers on a raceme.\n\nThe edible roots of the plant are usually cylindrical and tapered and are white, brown or reddish in color. Cassava plants can reach 4 m in height and is usually harvested 9–12 months after planting.\n\nCassava may also be referred to as Brazilian arrowroot, manioc, yucca or tapioca and the origins of the plant are unknown. The plant is not known to occur wild but may have first been cultivated in Brazil.\n\nCassava is the third-largest source of food carbohydrates in the tropics, after rice and maize. It is a major staple food in the developing world, providing a basic diet for over half a billion people. It is one of the most drought-tolerant crops, capable of growing on marginal soils.\n\n
+    </string>
+
+    <string name="cassava_cultivation_body">Cassava is propagated from stem cuttings as the tubers do not produce buds. Stem cuttings should only be taken from plants which are free from disease, are at least 10 months old and have borne tubers.\n\nThe cuttings should be taken from hardened stems leaving at least 30 cm (11.8 in) of stem intact in the ground. The stem can be severed using a sharp knife, secateurs or saw and each cutting should have 1–2 nodes and be approximately 20 cm (7.9 in) long.\n\nIt is a good idea to dip the stem cuttings in an appropriate fungicide prior to planting to help prevent the development of diseases.\n\nThe cuttings can then either be planted directly into a nursery bed or presprouted in trays or polyethylene bags.\n\nTo presprout the stems, plant in a cell tray or bag which is filled with good quality soil. Plant one stem in each cell or bag by pushing it into the soil in the direction in which it was growing on the mother plant (oldest part of stem first).\n\n
+    </string>
+
+    <string name="cassava_requirements_body">Cassava thrives in tropical and subtropical regions of the world as it requires warm temperatures for optimal growth.\n\nThe plants require at least 8 months of warm weather, thriving in regions with warm, moist climates with regular rainfall. Cassava can be grown in many types of soil, producing even in poor soil but will be optimally productive in well-draining, sandy clay loam with a pH between 5.5 and 6.5.\n\nCassava is drought resistant but will not tolerate water-logging. Root production is maximized when temperatures are between 25 and 32°C (77–90°F).\n\nCassava should be planted in full sun and is very sensitive to shading, which leads to low yields.\n\n
+    </string>
+
+    <string name="cassava_harvesting_body">Cassava is ready to harvest about a year after planting depending on the variety being grown.\n\nSome early maturing varieties may be ready to harvest in around nine months. In colder regions, cassava tubers can remain in the ground for up to 2 years before harvesting but can become fibrous so this is not recommended where cassava is being grown for consumption.\n\nCassava tubers are harvested by digging. The roots should be dug up carefully to prevent damage.\n\n
+    </string>
+
+    <string name="cocoyam_introduction_body">Cocoyams are herbaceous perennial plants belonging to the family Araceae and are grown primarily for their edible roots, although all parts of the plant are edible.\n\nCocoyams that are cultivated as food crops belong to either the genus Colocasia or the genus Xanthosoma and are generally comprised of a large spherical corm (swollen underground storage stem), from which a few large leaves emerge.\n\nThe petioles of the leaves stand erect and can reach lengths in excess of 1 m (3.3 ft).\n\nThe leaf blades are large and heart-shaped and can reach 50 cm (15.8 in) in length.\n\nThe corm produces lateral buds which give rise to tubers or cormels and suckers or stolons.\n\nCocoyams commonly reach in excess of 1 m (3.3 ft) in height and although they are perennials, they are often grown as annuals, harvested after one season.\n\nColocasia species may also be referred to as taro, old cocoyam, arrowroot, eddoe, macabo or dasheen and originates from Southeast or Central Asia.\n\nXanthosoma species may be referred to as tannia, yautia, new cocoyam or Chinese taro and originates from Central and South America.\n\n
+    </string>
+
+    <string name="cocoyam_cultivation_body">
+        <b>Propagation:</b>\n\nCocoyam is vegetatively propagated from headsetts (“tops”) or suckers which establish quickly and give the highest rate of survival.\n\nLarger headsetts and suckers tend to produce larger corms and bigger yeilds but the size of the planting material may be determined by the particular cultivar being grown e.g. some varieties will produce two heads from the same corm if the sucker that is planted is too big and therefore medium sized suckers are selected when growing tubers for export.\n\nHeadsetts and suckers should only be taken from healthy plants in order to protect yields and prevent the spread of diseases.\n\n
+        <b>Planting:</b>\n\nCocoyam is planted in such a way as to encourage sucker growth e.g. the use of larger plant spacing and shallow planting depths. The planting material (sucker or headsett) is set in furrows or ridges and plant spacing can be anywhere between 30 to 100 cm (11.8–39.4 in) between plants depending on the prevailing soil and climatic conditions.\n\nA narrow spacing helps to control weeds whereas a wider spacing is preferred for good growth.\n\n
+    </string>
+
+    <string name="cocoyam_requirements_body">Cocoyam grows best in fertile, well-draining, sandy loam soil with a pH between 4.2–7.5. It can be grown in a wide variety of conditions including paddies in wetland areas using a system similar to that of rice.\n\nXanthosoma species require temperatures above 21°C (69.8°F) to grow properly. Unlike Colocasia spp, they will not tolerate waterlogging and grow best in deep, well-draining loams with a pH between 5.5 and 6.5 in partial shade. Cocoyam will thrive when planted in full sunlight or partial shade.\n\nThe plants can survive for short periods at temperatures of 10°C (50°F) but will be damaged or killed by lower temperatures.\n\n
+    </string>
+
+    <string name="cocoyam_harvesting_body">Most cocoyam varieties mature in about 8 months from planting. Harvesting is done by shaking up the plant and uprooting it and bringing out the cormels while those cormels that remain in the soil are dug out. Cormels should not be bruised for proper storage.
+    </string>
+
+    <string name="mango_introduction_body"><b>Mango, Mangifera indica,</b> is an evergreen tree in the family Anacardiaceae grown for its edible fruit. The mango tree is erect and branching with a thick trunk and broad, rounded canopy.\n\nThe leaves of the tree are shiny and dark green. They are either elliptical or lanceolate with long petioles and a leathery texture. The tree produces dense clusters of flowers with cream-pink petals on branched panicles.\n\nThe mango fruit is roughly oval in shape, with uneven sides. The fruit is a drupe, with an outer flesh surrounding a stone. The flesh is soft and bright yellow-orange in color.\n\nThe skin of the fruit is yellow-green to red. Mango trees can grow to a height of 45 m (148 ft.) and can live for in excess of 100 years. Mango is believed to originate from India or Burma (Myanmar).\n\n
+    </string>
+
+    <string name="mango_cultivation_body">Mango seeds are commonly used to produce rootstock or in the production of new cultivars. Seeds can be poly–embryonic or mono–embryonic.\n\nPolyembryonic seeds can produce between 3 and 10 seedlings from one seed, the majority of which will exhibit the characteristics of the parent plant.\n\nMono–embryonic seeds produce only one seedling from each seed and it usually does not breed true to type. Mono–embryonic mango varieties are usually vegetatively propagated by grafting onto polyembryonic rootstocks.\n\nSeeds are collected from fully ripe fruit before chilling. The kernel is then removed from the endocarp and is planted within 24 hours of collection due to a rapid degeneration in seed viability.\n\nMango seeds should be planted to a depth of 2 cm (0.8 in) and should be positioned on their sides to promote a straight growth habit.\n\nMono–embryonic seeds should be planted to a depth of 1–2 cm (0.4–0.8 in) in 1 to 5 gallon pots containing a well-draining potting soil.\n\n
+    </string>
+
+    <string name="mango_requirements_body">Mango trees grow best in tropical or subtropical climates where there is no danger of frost and especially in areas where the rainfall over the four summer months (June to September) totals 75 to 250 cm (30 to 100 in) and is followed by 8 months of dry weather.\n\nThe trees grow optimally at temperatures of 24–27°C (75.2–80.6°F) with a relatively cool dry season and where heat is highest during flowering and fruiting. Mangos will tolerate almost any soil as long as it is well draining.\n\nOptimal growth will be achieved in rich, deep, well drained, loams. However, very rich soils will promote vegetative growth at the expense of flower and fruit production and should be avoided.\n\nThe trees also grow well in sand, gravel and limestone soils. The optimum soil pH is between 5.5 and 7.5. Trees should be positioned in full sunlight for optimal fruit production.\n\n
+    </string>
+
+    <string name="mango_harvesting_body">
+Mango fruits are usually ready for harvest 4–5 months after flowering. \n\n
+
+Fruits that are ready for harvesting will snap easily from the tree. If the fruit does not dislodge with a slight pull, then it is not fully mature and should be left to ripen fully.\n\n
+
+Fruits can be harvested by hand or, in commercial plantations, with the aid of special fruit picking devices. Mango fruit is delicate and easily bruised and must be handled carefully.\n\n
+
+Mango sap is very caustic and additional care must be taken during harvest to prevent sap coming into contact with the skin of the fruit or it will result in dark blemishes.\n\n
+    </string>
+
+    <string name="onion_introduction_body">
+        <b>Onion, Allium cepa,</b>is an herbaceous biennial in the family Liliaceae grown for its edible bulb. The stem of the plant is a flattened disc at the base and the tubular leaves form a pseudostem where their sheaths overlap. The leaves are either erect or oblique and there are 3–8 per plant.\n\n
+        The onion plant produces pink or white flowers clustered on stalks. The bulbs are formed just above the flattened stem of the plant by overlapping leaves. The bulb is made up of several layers, each corresponding to a leaf. They are are generally oval but shape can be variable and occur in clusters of 3–18 to a plant. The bulb is protected by a membrane which turns to a papery coat.\n\n
+        Onion plants can reach a height of 50 cm (20 in) and are grown as annuals, harvested after one growing season. Onion may also be referred to by cultivar and these include red or purple onion, shallots and spring onions or scallions.\n\n
+        The origin of the onion has not been conclusively determined although it is likely to be somewhere in South East Asia where the gene pool is most diverse.\n\n
+    </string>
+
+    <string name="onion_cultivation_body">
+<b>Seeds and transplants:</b>\n\n
+        In milder climates, onion seeds can be direct seeded as soon as the soil is workable in the Spring, 4–6 weeks before the last frost date, or even earlier if starting seeds indoors to produce transplants.\n\n
+        The planting site should be cultivated deeply and be free of stones. Work some compost into the soil and ensure that soil has a soft crumbly texture before planting.\n\n
+        Seeds should be sown 2.5 cm (1 in) deep allowing 10–13 cm between plants and 30–45 cm (12–18 in) between rows. Onion transplants which have been started indoors can be transplanted to the garden at a similar time to planting seeds.\n\n
+        Transplants are best produced in cell trays by planting 2 seeds per cell. Once the seeds have germinated, the seedlings should be thinned to one plant per cell. Transplants are ready to be planted when the root system has developed sufficiently to bind the soil in the cell together. Transplants should be spaced 10–13 cm allowing 30–45 cm (12–18 in) between rows.\n\n
+        <b>Sets:</b>\n\n
+        Sets Onion sets are small, immature onion bulbs which can be purchased from seed companies and garden centers for planting in place of seeds. Select the smaller sets for planting as they are less prone to bolting. Sets should be planted 2 cm (0.75 in) deep allowing 5–7.5 cm between sets and 25 cm (10 in) between rows.\n\n
+        <b>General care:</b>\n\n
+        Onions should be watered thoroughly after planting and once every week thereafter, applying approximately 1 inch of water each time. Be careful not to allow the soil to become dry and cracked as onions have a shallow root system and this indicates a lack of water. Water adequately but do not overwater.\n\n
+        Remove any weeds around young plants by hoeing shallowly so as not to damage the roots of the onions. Plants should be fertilized avery few weeks with a high nitrogen fertilizer.\n\n
+    </string>
+
+    <string name="onion_requirements_body">\n\n
+Onions are hardy, cool season vegetables that grow best at temperatures of 12 to 24 °C (55–75 °F).\n\n
+        They grow particularly well in areas with cool spring weather and drier, hotter summer weather.\n\n
+        They require a fertile, well-draining soil such as clay or silt loams with a pH of 5.5–6.5. The plants do not do well in acidic soils. Onions should be set out in full sun for optimum bulb development. \n\n
+        Onions are biennial vegetables and if they are left in the ground for a second year, they will produce flowers and set seed.\n\n
+    </string>
+
+    <string name="onion_harvesting_body">
+        When the soil at the base of the plants begins to crack, this indicates that the bulbing process has begun. Fertilizer applications should be stopped at this point.\n\n
+        Avoid hilling the soil over the bulbs as onions mature best if they are on top of the soil. When the onion bulbs are mature, the leaves will begin to yellow and fall over.\n\n
+        The tops can be bent right back to speed maturation. After a few days, the bulbs can be pulled and left on the soil surface to begin curing.\n\n
+        Any damaged onions should be cooked and consumed right away as they will not store well. Onions should be cured for several weeks before storing. This can be done outdoors by placing them on a plastic sheet off of the ground, under cover if the weather is wet.\n\n
+    </string>
+
+    <string name="pepper_introduction_body">
+<b>Bell peppers, Capsicum annuum</b> are a cultivar group of annual or perennial plants in the family Solanaceae grown for their edible fruits.\n\n
+        Bell pepper plants are short bushes with woody stems that grow brightly colored fruits. The alternating leaves are elliptical, smooth edged, and come to a distinct point.\n\n
+        The plant produces white or purple bell-shaped flowers which are 2.5 cm (1 in) in diameter. Red, yellow, purple, or brown fruit are produced each season about 3-6 weeks after flowering.\n\n
+        Pepper plants can grow 1 m (3.3 ft) tall and are usually grown as annuals in temperate regions for only one growing season.\n\n
+        Bell pepper may be referred to as red pepper, yellow pepper or green pepper and is believed to have originated in Central and South America.\n\n
+    </string>
+
+    <string name="pepper_cultivation_body">
+ <b>Sowing seeds:</b>\n\n
+        In most cases, pepper seeds should be started indoors 8–10 weeks before the last Spring frost.\n\n
+        Pepper should only be direct seeded in areas with a long, warm growing season, otherwise seeds should be sown indoors in flats or cell trays using a sterile seedling mix.\n\n
+        Plant seeds to a depth of 1.3 cm (1/2 in) and water lightly. Seeds should not be allowed to dry out as there will be a negative impact on germination rates. Trays should be positioned in a warm, bright, South facing window or under fluorescent lighting.\n\n
+        The optimum soil temperature for germination is 21–29°C(70–85°F). A heat mat can be used to warm the flats if required. Seedlings will emerge within 8–25 days and after the seedlings has developed two sets of true leaves then they can be moved to a larger (3-4 in) pot. Seedlings should be provided with ample light and adequate fertilizer.\n\n
+        <b>Transplanting:</b>\n\n
+        Peppers are usually transplanted 2–3 weeks after the last frost when the soil temperature has reached a minimum of 15.5°C (60°F).\n\n
+        Covering soil with dark plastic or mulch a week prior to planting outdoors can help bring the soil temperature up more quickly in colder regions, allowing earlier planting. Beginning approximately 7–10 days before transplanting, plants should be set outside to harden off.\n\n
+    </string>
+
+    <string name="pepper_requirements_body">
+         Bell peppers are warm-season crops and grow best at temperatures between 18 and 30°C (65–86°F).\n\n
+        They can be grown in many soil types although sandy soils warm faster in Spring and are good for early planting.\n\n
+        The soil should have a pH between 6 and 7.\n\n
+        Peppers will not tolerate water saturated soil and should be planted in a well draining soil or raised bed.\n\n
+        Peppers should be planted in an area that receives full sun for most of the day.\n\n
+    </string>
+
+    <string name="pepper_harvesting_body">
+        Harvest as soon as peppers reach desired size.\n\n
+        The longer bell peppers stay on the plant, the sweeter they become and the greater their Vitamin C content.\n\n
+        Use a sharp knife or scissors to cut peppers clean off the plant for the least damage.\n\n
+    </string>
+
+    <string name="potato_introduction_body">
+<b>Potato, Solanum tuberosum,</b> is an herbaceous perennial plant in the family Solanaceae which is grown for its edible tubers.\n\n
+        The potato plant has a branched stem and alternately arranged leaves consisting of leaflets which are both of unequal size and shape.\n\n
+        The leaflets can be oval to oblong in shape and the leaves can reach 10–30 cm (4–12 in) in length and 5–15 cm (2–6 in) wide. The potato plant produces white or blue flowers and yellow-green berries.\n\n
+        The potato tubers grow underground and generally located in the top 25 cm (10 in) of the soil. The tubers can range in color from yellow to red or purple depending on the variety.\n\n
+        Potato plants can reach in excess of 1 m (3.3 ft) in height and are grown as annual plants, surviving only one growing season. Potato may also be referred to as, spud, Irish potato, white potato or Spanish potato and originates from South America.\n\n
+    </string>
+
+    <string name="potato_cultivation_body">
+        Seed potatoes and pieces can be planted 0–2 weeks after the last frost or as soon as the soil is workable in early Spring bearing in mind that the plants will be killed by a frost.\n\n
+        Prepare soil for planting by working in compost or well-rotted manure. Potatoes are commonly grown in hilled rows.\n\n
+        This involves digging shallow trenches 60–90 cm (2–3 ft) apart after the addition of the compost or manure. Space the seed pieces 30 cm (12 in) apart and cover with 7.5 cm (3 in) of soil.\n\n
+        When the plants reach approximately 25 cm (10 in) in height mound the soil up around the stems of the plants so that they are covered up to about half of their height. This protects shallow tubers from turning green from exposure to sunlight. Allow the plants to grow another 25 cm (10 in) and again mound the soil.\n\n
+        Continue this process for the duration of the crops growth. Straw can be used around the plants instead of soil which eliminates the need to dig for the tubers but care must be taken to add fresh the straw regularly as it will break down over time. Alternatively, potatoes can be grown in containers or burlap bags.\n\n
+
+    </string>
+
+    <string name="potato_requirements_body">
+Potatoes are cool season crops which grow best in cooler climates or as a winter crop in areas with warm summers.\n\n
+        They are sensitive to heat but can tolerate a light frost. Potatoes require a deep, fertile, loose, well-draining soil with a pH between 5.8 and 6.5 and will grow optimally at daytime temperatures between 18 and 27°C (65–80°F) and night time temperatures between 12 and 18°C (55–65°F).\n\n
+        Plants can also be successfully grown outdoors in burlap bags or large containers.
+    </string>
+
+    <string name="potato_harvesting_body">
+        The time potato tubers take to reach maturity is variable and depends on the variety being grown, although it is usually about 2–3 weeks after the plants have bloomed. All tubers should be harvested when the vines have died or before a frost which will kill the plants.\n\n
+        Harvest the tubers by gently digging them up with a fork or with your hands if the soil is loose enough. Harvesting is easier when the soil is dry. Do not wash the tubers prior to storing. \n\n
+    </string>
+
+    <string name="pineapple_introduction_body">
+        <b>Pineapple, Ananas comosus, </b> is an herbaceous biennial or perennial plant in the family Bromeliaceae grown for its edible fruit.\n\n
+        The pineapple plant has a short stout stem and a rosette of sword-shaped leaves with needle-like tips. The leaves are waxy, have upturned spines on the margins and may be soild green or striped with red, white or cream.\n\n
+        When the plant flowers, the stem begins to elongate and produces a flower head of small purple or red flowers, each with a pointed bract. The stem continues to elongate and sets down a tuft of short leaves called a \'crown\'.\n\n
+        Individual fruits develop from the flowers and fuse to form one large cylindrical fruit topped by the crown. This fruit, known as a pineapple, has a tough rind made up of hexagonal units and a fibrous, juicy flesh which may be yellow to white in color.\n\n
+        Pineapple may reach 1.5–1.8 m (5–6 ft) in height and some varieties can grow for in excess of 20 years.\n\n
+        Pineapple originates from the tropical regions of the Americas.\n\n
+    </string>
+
+    <string name="pineapple_cultivation_body">
+Pineapple is propagated from crowns, slips or suckers, with slips or suckers being the preferred method for commercial growers.\n\n
+        Pineapple suckers arise from leaf axils, while slips grow from the stalk below the fruit.\n\n
+        These are cut from the parent plant and used to produce new plantings.\n\n
+        The cuttings are usually cured for a day or two prior to planting by sitting them in the shade.\n\n
+        Pineapple plantings are normally set out in double rows with the material staggered 25–30 cm (10–12 in) apart within the double row and allowing a further 60 cm (2 ft) between double rows.\n\n
+    </string>
+
+    <string name="pineapple_requirements_body">
+Pineapple is a tropical plant and grows best in temperatures between 23–32°C (73.4–89.6°F).\n\n
+        The plant can tolerate colder temperatures for short periods but will be killed by frosts.\n\n
+        Pineapple will grow optimally in well-draining sandy loam which is rich in organic matter.\n\n
+        The optimum pH for pineapple growth is between 4.5–6.5.\n\n
+        Established pineapple plants are tolerant of drought but will not tolerate waterlogged soil which quickly leads to root rot.\n\n
+    </string>
+
+    <string name="pineapple_harvesting_body">
+Pineapples are ready to harvest when at least one third of the fruit rind has turned from green to yellow.\n\n
+        Fruits are harvested by hand by cutting the crown and peduncle from the plant. The fruit will continue to ripen off of the plant.\n\n
+    </string>
+
+    <string name="tomato_introduction_body">
+ <b>Tomato, Lycopersicum esculentum</b> is an herbaceous annual in the family Solanaceae grown for its edible fruit. The plant can be erect with short stems or vine-like with long, spreading stems.\n\n
+        The stems are covered in coarse hairs and the leaves are arranged spirally. The tomato plant produces yellow flowers, which can develop into a cyme of 3–12, and usually a round fruit (berry) which is fleshy, smoothed skinned and can be red, pink, purple, brown, orange or yellow in color.\n\n
+        The tomato plant can grow 0.7–2 m (2.3–6.6 ft) in height and as an annual, is harvested after only one growing season.\n\n
+        Tomato may also be referred to as love apple and originates from South America.\n\n
+
+    </string>
+
+    <string name="tomato_cultivation_body">
+In most cases, tomato seeds should be started indoors 6–8 weeks before last Spring frost.\n\n
+        Seeds can be direct seeded in areas with a long growing season. Seeds should be sown in flats or cell trays using a sterile seedling mix.\n\n
+        Plant seeds to a depth of 0.6 cm (1/4 in) and water lightly. If cells are being used, plant several seeds in each cell and thin to 1 seedling after germination.\n\n
+        Position trays in a bright South facing window or under fluorescent lighting. The optimum soil temperature for germination is 21–32°C (70–90°F).\n\n
+        A heat mat can be used to warm the flats if required. Seedlings should emerge within 6-14 days and after the seedlings has developed the first set of true leaves then they can be moved to a larger (3-4 in) pot and moved to a cooler temperature (16–21°C/60–70°F).\n\n
+        Transplanting Tomato seedlings are ready to be transplanted once they are 15–25 cm (6–10 in) in height and have 3–5 true leaves assuming all danger of frost has passed. Beginning approximately 7-10 days before transplanting, plants should be set outside to harden off.\n\n
+        The transplanting site should be prepared by working in a balanced fertilizer according to the guidelines on the product label. Transplants should be spaced 76–123 cm (30–48 in) apart with a between row spacing of 123 cm (48 in).\n\n
+    </string>
+
+    <string name="tomato_requirements_body">
+Tomatoes grow very well in warm areas at temperatures between 21 and 24°C (69.8–75.2°F).\n\n
+        They require a deep, loamy, well-draining soil with a pH between 5.5 and 6.8.\n\n
+        If soil drainage is a problem then tomatoes can be planted in a raised bed.\n\n
+        Like all fruiting plants, tomatoes require full sun for most of the day.
+    </string>
+
+    <string name="tomato_harvesting_body">
+        Leave your tomatoes on the vine as long as possible. If any fall off before they appear ripe, place them in a paper bag with the stem up and store them in a cool, dark place.\n\n
+        Never place tomatoes on a sunny windowsill to ripen; they may rot before they are ripe!\n\n
+        The perfect tomato for picking will be firm and very red in color, regardless of size, with perhaps some yellow remaining around the stem. If you grow orange, yellow or any other color tomato, wait for the tomato to turn the correct color.\n\n
+        If your tomato plant still has fruit when the first hard frost threatens, pull up the entire plant and hang it upside down in the basement or garage. Pick tomatoes as they ripen.\n\n
+        Never refrigerate fresh tomatoes. Doing so spoils the flavour and texture that make up the garden tomato taste.\n\n
+        To freeze, core fresh unblemished tomatoes and place them whole in freezer bags or containers. Seal, label, and freeze. The skins will slip off when they defrost.\n\n
+
+        You can harvest seeds from some tomato varieties.\n\n
+
+    </string>
+
+    <string name="watermelon_introduction_body">
+       <b>Watermelon, Citrullus lanatus,</b> is a vining annual plant in the family Cucurbitaceae grown for its fleshy fruit.\n\n
+        Watermelon vines are thin, grooved and covered in tiny hairs. Vines are branching and possess deeply lobed pinnate leaves. The plant produces solitary yellow flowers and a large spherical to oblong fruit. The fruit is a \'pepo\' - a fleshy fruit protected by a thick leathery rind.\n\n
+        The fruit is smooth, light to dark green in color and can be striped, marbled or solid green.\n\n
+        The flesh of the fruit is usually red in color but some cultivars produce green, orange or white flesh and contains numerous seeds which are usually black or dark brown in color.\n\n
+        Watermelon vines can reach a length of 3 m (10 ft) and as an annual, survives only one growing season. Watermelon originates from Africa.\n\n
+    </string>
+
+    <string name="watermelon_cultivation_body">
+ Watermelon can be direct seeded in areas with a long, warm growing season but in more Northern climates it should be sown indoors and transplanted.\n\n
+        If direct seeding,seeds should be sown after the last frosts and when the soil has warmed to at least 18.4°C (65°F).\n\n
+        Allow 90–120 cm (~3–4 ft) between seeds in a row and 150–180 cm (~5–6 ft) between rows.\n\n
+        If transplanting, seeds should be sown approximately 3–4 weeks before the last frost date in your area and transplanted after the plants develop their first set of true leaves.\n\n
+        Sow seeds in 3–4 in pots using a sterile seed starting mix and planting to a depth of 1–2 cm (~0.5 in). Thin seedlings once they are established. Seeds sown both indoors and out require lightly moist soil for germination, care should be taken to avoid overwatering as seeds are prone to rotting. Seeds should germinate in 3–10 days depending on the soil temperature.\n\n
+    </string>
+
+    <string name="watermelon_requirements_body">
+ Watermelon is a warm-season crop, requiring lots of sun and good drainage to develop optimally and growing best at temperatures between 18 and 28°C (65–82°F).\n\n
+        Watermelon will yield best if grown in a light, well-draining soil, rich in organic matter and with a pH between 6.0 and 7.0.\n\n
+        Watermelon should be planted in full sun and heavy feeders. They need to be provided with even soil moisture and fertilized regularly. Vining varieties can grow to very large sizes and require a good deal of space.\n\n
+    </string>
+
+    <string name="watermelon_harvesting_body">
+Watermelons are ready to be harvested when the the tendrils closest to the fruit are beginning to dry out and turn brown. The underside of the melon should be beginning to turn yellow.\n\n
+    </string>
+
+    <string name="yam_introduction_body">
+        Yam is in the class of roots and tubers that is a staple of the Nigerian and West African diet, which provides some 200 calories of energy per capita daily.\n\n
+        In Nigeria, in many yam-producing areas, it is said that "yam is food and food is yam".\n\n
+        However, the production of yam in Nigeria is substantially short and cannot meet the growing demand at its present level of use.\n\n
+        It also has an important social status in gatherings and religious functions, which is assessed by the size of yam holdings one possesses.\n\n
+    </string>
+
+    <string name="yam_cultivation_body">
+        Yam is grown on free draining, sandy and fertile soil, after clearing the first fallow. Land is prepared in the form of mound or ridge or heap of 1 metre (3 ft 3 in) height.\n\n
+        The yams recommended for such soil conditions in Nigeria are white yam or white guinea yam (Discorea rotundata) and water yam or yellow yam (Discorea alata).\n\n
+        Planting is done by seed yam or cut setts from ware tubers. One day before planting, the tubers have to be subjected to treatment with wood ash or a fungicide (thiabendazole) to prevent damage to the soils.\n\n
+        The setts are planted at an interval of 15–20 centimetres (5.9–7.9 in) with the cut face facing up.\n\n </string>
+
+    <string name="yam_requirements_body">
+Mulching is essential during October–November with dry grass or plant debris weighed down with balls of mud.\n\n
+        Dosage of fertilizer application, as essential, is decided after chemical analysis of the soil samples. \n\n
+        Manual weeding by hoeing is done three or four times depending on the rate of weed growth.\n\n
+        Two Stakes, each of 2 metres (6 ft 7 in) height are used for staking the plants to vine over it; one for two plants with the other used for bracing with the adjacent stakes. Sorghum stovers are also used for this purpose in the savannah land.\n\n
+        Pest and disease control is addressed by cultural control and chemical methods; the pests which affect the plant are nematodes such as root knot Meloidogyne spp. and yam nematode (Scutellonema bradys), and insects such as yam shoot beetle, yam tuber beetle and crickets.\n\n
+        Weeding of the field is essential and maintaining a 2–3 metres (6 ft 7 in–9 ft 10 in) weed free border around the field is to be ensured. Disease resistant [cultivars] are normally recommended for use. Harvesting is done before the vines become dry and soil becomes dry and hard.\n\n
+        Generally, a yield of 10–15 tonnes per ha for white yam and 16–25 tonnes for water yam are obtained by following prescribed management practices. The harvested yams are stored by tying them with ropes. They have a shelf life of about 5 months. Warehouses where they are stored should be made rodent proof with a metal base and wire netting.\n\n
+        Rotten buds and sprouted buds should be removed.\n\n
+
+    </string>
+
+    <string name="yam_harvesting_body">
+        Depending on the variety, yams are harvested 6 to 12 months after planting. Lift the tubers when the leaves and stems turn yellow and dry.\n\nDo not leave the ripe tubers too long in the ground, otherwise they become bitter and may rot.\n\nWith some varieties, only one crop is harvested. Others are harvested twice.\n\nAt the first harvest, after 6 months, the biggest tubers are lifted.\n\nThe second harvest is taken 3 to 6 months after the first.\n\nOr the crop may be harvested as and when needed.\n\n
+    </string>
+
+    <string name="avocado_disease_one_header">
+        Algal Leaf Spot
+    </string>
+    <string name="avocado_disease_one_body">
+        <b>Symptoms:</b>\n\n
+        "Raised, orange-red spots on both upper and lower surfaces of leaves.\n\n"
+        "spots may coalesce to form irregularly shaped patches;\n\n"
+        "spots may also be present on twigs and branches;\n\n"
+        "when the surface of the spot is scraped away, a gray to dark necrotic crust is visible\n\n"
+<b>Cause:</b>\n\n"Alga"\n\n
+
+<b>Comments:</b>\n\n
+"Disease affects many fruit trees in the tropics; infection is unsightly but often harmless"
+<b>Control:</b>\n\n
+"Ensure that trees are properly pruned and fertilized to promote vigor; remove all weeds from around tree bases; employ a wider tree spacing to increase air circulation around the trees; badly infested trees can be treated with copper containing fungicides."
+    </string>
+
+    <string name="avocado_disease_two_header">
+        Anthracnose
+    </string>
+    <string name="avocado_disease_two_body">
+        <b>Symptoms:</b>\n\n
+        "Chlorotic and necrotic spots; dead leaf tip; defoliation; brown or purple lesions on new shoots"\n\n
+
+        <b>Cause:</b>\n\n"Fungus"\n\n
+
+        <b>Comments:</b>\n\n
+        "Spores spread by rain splash; high moisture and warm temperatures encourage spread"\n\n
+ <b>Control:</b>\n\n
+"Prune dead twigs and branches from tree before fungi produce spores.\n\nknock dead leaves out of canopy.\n\nkeep harvested fruit dry and cool.\n\nSpraying with fungicides such as copper oxychloride, Benomyl, Copper ammonium carbonate, Copper sulfate, Copper hydroxide, Sulfur + copper sulfate.\n\n"
+    </string>
+
+    <string name="avocado_disease_three_header">
+       Avocado Thrips
+    </string>
+    <string name="avocado_disease_three_body">
+        <b>Symptoms:</b>\n\n
+"Obvious feeding scars on fruit; scars begin as scabs or leathery patches and spread across fruit; adult insect is orange-yellow in color with distinct brown bands and reaches 0.7 mm (0.03 in) in length."\n\n
+<b>Cause:</b>\n\n
+"Insect"\n\n
+<b>Comments:</b>\n\n
+"Insect thrives in cooler temperatures; insect may undergo 6 or more generations per year"\n\n
+<b>Control:</b>\n\n
+"Addition of coarse organic mulch about 6 inches thick below trees may help to reduce survival of thrips pupating in soil; if insecticides are to be applied, a selective insecticide should be selected to reduce damage to populations of natural enemies; Sprays of Entrust are organically acceptable."\n\n
+    </string>
+
+    <string name="avocado_disease_four_header">
+        Persea Mites
+    </string>
+    <string name="avocado_disease_four_body">
+        <b>Symptoms:</b>\n\n
+
+"Tree dropping leaves and becoming defoliated causing sunburn damage to exposed bark and fruit; mites cause the development of circular chlorotic to brown spots on the undersides of the leaves and fruit surface; dense colonies of mites produce silk webbing which may appear as a silvery spot; large mite populations can cause the entire tree canopy to appear lighter in color."\n\n
+    <b>Cause:</b>\n\n
+"Arachnid"\n\n
+  <b>Comments:</b>\n\n
+Persea mites are most damaging on Hass and Gwen varieties.\n\n
+  <b>Control:</b>\n\n
+"Ensure the tree is adequately fertilized, pruned properly and irrigated to avoid unnecessary stress to the tree which can make them more susceptible to mite attack; persistent infestations may require treatment with an appropriate chemical; organic controls include several types of horticultural oil."\n\n
+    </string>
+<string name="avocado_advise">
+
+  <b>Propagation:</b>\n\n
+    "Propagation is majorly by grafting."\n\n
+
+    "Grafting should be carried out when the seedlings reach pencil thickness. Wedge grafting method is most successful."
+
+    "It should be done at the point where rootstock is soft, and the scion should be dormant at the time of grafting and should match the size of the stock."
+
+   "The grafting point should be wrapped thoroughly to exclude water from the union and to prevent it from drying out."\n\n
+
+
+  <b>Spacing:</b>\n\n
+    "This is determined by the habit of the cultivar and the kind of the soil. In light soil, 25 x 25 ft. may be sufficient while in deep, rich soil, the tree makes its maximum growth and a spacing of 30-35 ft. may be necessary."
+
+    "If trees are planted so close that they ultimately touch each other, the branches die back."\n\n
+
+
+  <b>Pruning:</b>\n\n
+    "All suckers and dead branches are removed from main trunk branches."
+
+    "The canopy is pruned to keep the tree to a height of 5-8 m and for ease of picking."
+
+    "Pruning should however be minimized because the tree is very susceptible to sunburn."\n\n
+
+
+<b>Weeding:</b>\n\n
+    "The area around the tree should be kept clean by weeding and removal of all fallen fruits."
+    "Weeds compete for growth factors like nutrients and water and harbor pests and diseases."
+
+    "CLAMPDOWN 480SL 200ml/20l is a non-selective herbicide which controls all types of weeds in the garden."\n\n
+</string>
+    <string name="title_news">News</string>
+    <string name="title_learn">Learn</string>
+
+</resources>
