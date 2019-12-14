@@ -11,7 +11,7 @@
 
 # Problem Statement 
 - 80% of Nigerian Farmers are Illiterates, and have little or no access to information inorder to grow and improve their farm products.
-- Inaccessibility of Communication platorm for Experts to interacts with local and illeterate farmers to pass knowledge on how to improve a particular farm products.
+- Inaccessibility of Communication platform for Experts to interacts with local and illiterate farmers to pass knowledge on how to improve a particular farm products.
 - Inability of the illiterate farmers to used sophisticated applications (Social Media Apps) for learning about new and improved methods of farming
 - Inability of Farmers to operate Mobile and Web Application with English Language that is not in their mother tongue.
 
@@ -55,5 +55,6 @@ wait for graddle to sync with project
 Connect a device in debugging (Do not use an Emulator for it, use a real device due to google's policy)
 then Click run to view the project on your device
 Recommended android 7.0 and above
+This app only works with Nigerian phone numbers as this solution is only for Nigerians.
 ```
 
