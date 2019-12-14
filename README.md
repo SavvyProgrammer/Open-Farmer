@@ -6,7 +6,8 @@
 
 - Ehigiator Samson, samson.ehigiator@physci.uniben.edu 
 - Abandy Roosevelt, rossevelt.abandy@physci.uniben.edu
-- Sunday Obinna - hikenike6@gmail.com
+- Sunday Obinna, hikenike6@gmail.com
+- Tobi Ashiru, tobiashiru58@gmail.com
 
 # Problem Statement 
 - 80% of Nigerian Farmers are Illiterates, and have little or no access to information inorder to grow and improve their farm products.
@@ -53,5 +54,6 @@ insert the name of the repository to import your project => https://github.com/S
 wait for graddle to sync with project
 Connect a device in debugging (Do not use an Emulator for it, use a real device due to google's policy)
 then Click run to view the project on your device
+Recommended android 7.0 and above
 ```
 
