@@ -18,8 +18,8 @@
 
 # Proposed Solution
 
-A project to help farmers and agricultural researchers exchange ideas, foster collaboration between the two players and provide sustainable agricultural practices with a very friendly User Interface, which can be used by illerate farmers while maintaining
-quality.
+A project to help farmers and agricultural researchers exchange ideas, foster collaboration between the two players and provide sustainable agricultural practices using with the means of crowdsourcing with a very friendly User Interface, which can be used by illerate farmers while maintaining
+quality. 
 
 # Proposed Stack
 
@@ -46,14 +46,12 @@ Java, FireBase, Adobe-XD, APIs
 
 ```
 git clone https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019
-or
-git clone https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019/tree/day4-implementation
+
 ```
 ### import project using Android Studio/IntelliJ
 
 ```
 insert the name of the repository to import your project => https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019
-or https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019/tree/day4-implementation
 wait for graddle to sync with project
 Connect a device in debugging (Do not use an Emulator for it, use a real device)
 then Click run to view the project on your device
