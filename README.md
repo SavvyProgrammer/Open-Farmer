@@ -60,4 +60,3 @@ then Click run to view the project on your device
 Recommended android 7.0 and above
 ```
 ### This project is only for Nigerians, Please use a Nigerian phone number during the aunthetication
-
