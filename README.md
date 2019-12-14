@@ -46,15 +46,15 @@ Java, FireBase, Adobe-XD, APIs
 
 ```
 git clone https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019
+or
+git clone https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019/tree/day4-implementation
 ```
 ### import project using Android Studio/IntelliJ
 
 ```
 insert the name of the repository to import your project => https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019
+or https://github.com/SavvyProgrammer/OpenFarmer-NaijaHacks_2019/tree/day4-implementation
 wait for graddle to sync with project
-
-Connect a device in debugging more or use a suitable android emulator
-
 Connect a device in debugging (Do not use an Emulator for it, use a real device due to google's policy)
 then Click run to view the project on your device
 Recommended operating system (android 7.0 and above)
