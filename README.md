@@ -1,5 +1,5 @@
 
-## download this demo app using the link beloe
+## download this demo app using the link below
 https://drive.google.com/open?id=1-QwwXaCGKg2sZ3DlMNyicBbRQ0Zbe8wY
 
 # NaijaHacks Hackathon 2019
